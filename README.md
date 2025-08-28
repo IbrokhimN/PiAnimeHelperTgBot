@@ -1,2 +1,52 @@
-# PiAnimeHelperTgBot
-It helps you to chose anime or to know some additional information about anime
+# Anime Telegram Bot
+
+Простой Telegram-бот для поиска информации об аниме через [Jikan API](https://jikan.moe/).
+
+## Функции
+
+- Поиск аниме по названию  
+- Отображение деталей: тип, год выпуска, количество эпизодов, рейтинг, статус, описание  
+- Получение случайного аниме  
+- Кнопки выбора при нескольких результатах поиска  
+
+## Установка
+
+1. Клонируйте репозиторий:
+
+```bash
+git clone https://github.com/IbrokhimN/PiAnimeHelperTgBot.git
+```
+
+
+2. Установите зависимости:
+```bash
+pip install -r requirements.txt
+```
+
+
+3. Установите токен Telegram как переменную окружения:
+```bash
+export TELEGRAM_BOT_TOKEN="ВАШ_TELEGRAM_BOT_TOKEN"
+```
+
+4. Запустите бота:
+```bash
+python3 main.py
+```
+
+## Команды бота
+
+- `/start` — приветствие и инструкции
+    
+- `/help` — помощь и примеры запросов
+    
+- `/random` — случайное аниме
+    
+
+Чтобы получить информацию об аниме, просто отправьте его название в чат.
+
+## Структура проекта
+
+- `main.py` — главный файл бота
+    
+- `requirements.txt` — зависимости проекта
