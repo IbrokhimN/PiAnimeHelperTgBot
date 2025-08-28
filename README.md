@@ -50,3 +50,11 @@ python3 main.py
 - `main.py` — главный файл бота
     
 - `requirements.txt` — зависимости проекта
+
+
+
+
+⚠️ Disclaimer
+This project is intended for educational and moderation purposes only.  
+The author is **not responsible** for any misuse of this code.
+
