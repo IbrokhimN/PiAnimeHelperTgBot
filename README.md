@@ -61,3 +61,7 @@ python3 main.py
 Этот проект предназначен **только для образовательных и модерационных целей**.
 Автор **не несёт ответственности** за любое неправильное использование кода.
 
+## ⚠️ Disclaimer 
+
+This project is intended for educational and moderation purposes only.
+The author is not responsible for any misuse of this code.
